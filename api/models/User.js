@@ -8,7 +8,21 @@
 module.exports = {
 
   attributes: {
-
+	  name:{
+        type:"string", 
+        required:true,
+        minLength: 2
+      },
+      phone:{
+        type:"string",
+        required:false,
+        unique: true
+      },
+      email:{
+        type:"email",
+        required:true,
+        unique: true
+      }
   }
 };
 
