@@ -37,19 +37,19 @@ module.exports = {
       city:{
         type:"string",
         required:false
-      }
+      },
       hometown:{
         type:"string",
         required:false
-      }      
+      },     
       country:{
         type:"string",
         required:false
-      }
+      },
       language:{
         type:"string",
         required:false
-      }  
+      },  
       birthdate:{
       	type:"string",
       	required:false
